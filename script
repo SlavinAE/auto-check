@@ -2,7 +2,7 @@
 git add --all
 git commit -am "Changed file $*, Auto-Commit V0.1"
 git push
-command < qwe
-
+expect "Enter passphrase for key '/home/slavin/.ssh/id_ed25519':\r"
+send -- qwe
 
 
