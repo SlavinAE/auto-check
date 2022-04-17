@@ -1,5 +1,5 @@
 #!/bin/bash
-git config --unset user.password
+git config --global --unset user.password
 git add --all
 git commit -am "Changed file $*, Auto-Commit V0.1"
 git push
