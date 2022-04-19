@@ -1,6 +1,4 @@
 #!/bin/bash
-eval `ssh-agent -s`
-ssh-add
 git add --all
 git commit -am "auto-commit"
 git push
